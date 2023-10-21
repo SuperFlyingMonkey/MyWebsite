@@ -6,6 +6,7 @@ body{
 #page{
     height: 100vh; 
     background-color: #808080; 
+    background-image: url('IMG_E0205.JPG');
 }
 #titleBar{
     height: 35px;
@@ -55,8 +56,9 @@ body{
     width: 750px;
     height: auto;
     margin: auto;
-    background-color: #b3b3b3;
+    background-color: #232023;
     box-shadow: inset 2px 2px 5px rgba(0,0,0,1);
+    opacity: 0.7;
    
     
     
@@ -77,14 +79,21 @@ a{
     font-size: large;
 }
 #sideBar{
+   
     height: 100vh;
-    width: 150px;
+    width: 160px;
     float: left;
-    background-color: #232023;
+    display:flex;
+    flex-direction: column;
 }
 #title{
     width:100px;
     margin: 0;
     margin-left: 12px;
     margin-top: 5px;
+}
+#boxOne{
+    height: 250px;
+    width: auto;
+    margin-top:auto;  
 }
