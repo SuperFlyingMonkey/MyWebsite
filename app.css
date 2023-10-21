@@ -1,5 +1,6 @@
 
 body{
+    height: 100%;
     margin: 0px;   
 }
 #page{
@@ -7,7 +8,7 @@ body{
     background-color: #808080; 
 }
 #titleBar{
-    height: 30px;
+    height: 35px;
     width: auto;
     background-color: #232023;
     
@@ -50,10 +51,11 @@ body{
     font-size: larger;
 }
 #core{
+    
     width: 750px;
     height: auto;
     margin: auto;
-    background-color: #9da0a0;
+    background-color: #b3b3b3;
     box-shadow: inset 2px 2px 5px rgba(0,0,0,1);
    
     
@@ -73,4 +75,16 @@ a{
 }
 #words{
     font-size: large;
+}
+#sideBar{
+    height: 100vh;
+    width: 150px;
+    float: left;
+    background-color: #232023;
+}
+#title{
+    width:100px;
+    margin: 0;
+    margin-left: 12px;
+    margin-top: 5px;
 }
