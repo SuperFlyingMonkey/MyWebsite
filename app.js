@@ -1,6 +1,5 @@
 var $win = $(window);
 var $lay = $('#page');
-var $write=$('core');
 var baseSize = {
     w: 720,
     h: 500    
