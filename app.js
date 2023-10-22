@@ -1,5 +1,6 @@
 var $win = $(window);
 var $lay = $('#page');
+var $write=$('core');
 var baseSize = {
     w: 720,
     h: 500    
@@ -26,7 +27,5 @@ function updateScale() {
     
     console.log(newScale);
 }
-
-
 
 $(window).resize(updateScale);
