@@ -5,9 +5,7 @@ var baseSize = {
     h: 500    
 }
 
-function onstart(){
-    
-}
+
 
 function updateScale() {
     
