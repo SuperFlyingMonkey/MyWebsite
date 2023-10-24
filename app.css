@@ -3,7 +3,7 @@ body{
     height: 100%;
     margin: 0px; 
     background-color:#2f4f4f; 
-   
+    
 }
 #page{
     position: absolute;
@@ -65,7 +65,9 @@ body{
 #writing{
     
     width:200px;
+
     float:left;
+    width: auto;
     font-size: 15vw;
     font-family:Arial, Helvetica, sans-serif;
     padding-top:5px;
@@ -93,7 +95,7 @@ a{
     margin-top: 5px;
 }
 #boxOne{
-    height: 250px;
+    height: 200px;
     width: auto;
     margin-top:auto; 
      
@@ -117,17 +119,29 @@ a{
 .social{
 width:auto;
 height:50px;
-margin-top: 10%;
+margin-top: 9%;
 font-size: medium;
-border-color: black;
+
 
 }
 #git{
-margin-bottom:100px;
+    float:right;
+    margin-top:10% ;
+    margin-right: 25%;
+    height: auto;
+    width:auto;
 }
 #sCloud{
-    margin:auto;
+    float:right;
+    margin-top:10% ;
+    margin-right: 10%;
+    height: auto;
+    width:auto;
 }
 #insta{
-    margin:auto;
+    float:right;
+    margin-top:10% ;
+    margin-right: 20%;
+    height: auto;
+    width:auto;
 }
